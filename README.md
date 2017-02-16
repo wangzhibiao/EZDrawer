@@ -1,1 +1,2 @@
-# EZDrawer
+# EZDrawer Swift3.0 
+一个简单的抽屉菜单效果。可同时或单独包含左右抽屉菜单。
