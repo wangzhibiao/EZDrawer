@@ -10,7 +10,7 @@
 
 import UIKit
 
-class EZDrawer: NSObject {
+public class EZDrawer: NSObject {
 
     // 根控制器
     var root: EZRootViewController?
