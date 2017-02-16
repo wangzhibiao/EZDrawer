@@ -1,6 +1,5 @@
 # EZDrawer Swift3.0 
-* 一个简单的抽屉菜单效果。可同时或单独包含左右抽屉菜单。
-## <a id="How to use "></a>How to use
+* 一个简陋的抽屉菜单效果。可同时或单独包含左右抽屉菜单。
 * Installation with CocoaPods：`pod 'EZDrawer'`
 
 ```objc
