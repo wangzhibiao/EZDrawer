@@ -24,7 +24,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let r = EZRightViewController()
         
         // 管理器
-        let manager = EZDrawerManager.shared
+        let manager = EZDrawer.shared
         // 创建根是图
         let root = manager.setupChilds(main: m, left: nil, right: nil)
 //        let root = manager.setupChilds(main: m, left: l, right: nil)

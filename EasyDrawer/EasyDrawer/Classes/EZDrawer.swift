@@ -10,7 +10,7 @@
 
 import UIKit
 
-class EZDrawerManager: NSObject {
+class EZDrawer: NSObject {
 
     // 根控制器
     var root: EZRootViewController?
@@ -33,7 +33,7 @@ class EZDrawerManager: NSObject {
     }
     
     // 单例
-    static let shared = EZDrawerManager()
+    static let shared = EZDrawer()
     
     /// 返回根控制器
     ///
