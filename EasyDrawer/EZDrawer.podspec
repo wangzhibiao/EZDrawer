@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "EZDrawer"
-  s.version      = "0.0.2"
+  s.version      = "0.0.3"
   s.summary      = "抽屉菜单简单实现"
 
 
