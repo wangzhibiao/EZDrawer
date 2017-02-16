@@ -4,12 +4,12 @@
 
 ```objc
         // 创建控制器
-        let main = EZMainViewController()
-        let left = EZLeftViewController()
-        let right = EZRightViewController()
+        let main = UIViewController()
+        let left = UIViewController()
+        let right = UIViewController()
         
         // 管理器
-        let manager = EZDrawerManager.shared
+        let manager = EZDrawer.shared
         
         // 创建根是图如果没有主页视图控制器则返回nil 
           let root = manager.setupChilds(main: main, left: nil, right: nil)
