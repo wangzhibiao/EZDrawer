@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/wangzhibiao/EZDrawer.git", :tag => s.version  }
 
 
-   s.source_files  = "EasyDrawer/Classes/*.swift"
+   s.source_files  = "EasyDrawer/EasyDrawer/Classes/*.swift"
   s.requires_arc = true
 
  end
