@@ -33,7 +33,7 @@ public class EZDrawer: NSObject {
     }
     
     // 单例
-    static let shared = EZDrawer()
+    public static let shared = EZDrawer()
     
     /// 返回根控制器
     ///
@@ -42,7 +42,7 @@ public class EZDrawer: NSObject {
     ///   - left: 左侧抽屉控制器
     ///   - right: 右侧抽屉控制器
     /// - Returns: 跟控制器
-    func setupChilds(main: UIViewController?, left: UIViewController?, right: UIViewController?) -> UIViewController? {
+   public func setupChilds(main: UIViewController?, left: UIViewController?, right: UIViewController?) -> UIViewController? {
         
         // 如果没有设置主控制器 返回nil
         guard let main = main
@@ -61,17 +61,17 @@ public class EZDrawer: NSObject {
     // MARK: - 打开和关闭抽屉
     
     // 打开左侧抽屉
-    func openLeftDrawer() {
+   public func openLeftDrawer() {
         self.root?.openLeftMenu()
     }
     
     // 打开右侧抽屉
-    func openRightDrawer() {
+    public func openRightDrawer() {
         self.root?.openRightMenu()
     }
     
     // 关闭抽屉 不区分左右
-    func closeDrawer() {
+   public func closeDrawer() {
         self.root?.closeMenu()
     }
     
