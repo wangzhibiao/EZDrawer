@@ -16,6 +16,28 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        
+        // 创建控制器
+        let m = EZMainViewController()
+        let l = EZLeftViewController()
+        let r = EZRightViewController()
+        
+        // 管理器
+        let manager = EZDrawerManager.shared
+        // 创建根是图
+        let root = manager.setupChilds(main: m, left: nil, right: nil)
+//        let root = manager.setupChilds(main: m, left: l, right: nil)
+//        let root = manager.setupChilds(main: m, left: nil, right: r)
+
+        // 设置停靠比例
+        manager.scale = 0.4
+        
+        // 设置根是图
+        window = UIWindow(frame: UIScreen.main.bounds)
+        window?.rootViewController = root
+        window?.makeKeyAndVisible()
+        
         return true
     }
 

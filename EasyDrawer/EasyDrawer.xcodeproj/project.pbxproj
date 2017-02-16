@@ -12,18 +12,28 @@
 		12268E861E5483FB0011B37E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12268E841E5483FB0011B37E /* Main.storyboard */; };
 		12268E881E5483FB0011B37E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12268E871E5483FB0011B37E /* Assets.xcassets */; };
 		12268E8B1E5483FB0011B37E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12268E891E5483FB0011B37E /* LaunchScreen.storyboard */; };
-		12268E941E5484440011B37E /* Demo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12268E931E5484440011B37E /* Demo.swift */; };
+		12A542CC1E558625001F93A0 /* Commom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12A542C51E558625001F93A0 /* Commom.swift */; };
+		12A542CD1E558625001F93A0 /* EZDrawerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12A542C61E558625001F93A0 /* EZDrawerManager.swift */; };
+		12A542CE1E558625001F93A0 /* EZRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12A542C71E558625001F93A0 /* EZRootViewController.swift */; };
+		12A542CF1E558625001F93A0 /* EZLeftViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12A542C91E558625001F93A0 /* EZLeftViewController.swift */; };
+		12A542D01E558625001F93A0 /* EZMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12A542CA1E558625001F93A0 /* EZMainViewController.swift */; };
+		12A542D11E558625001F93A0 /* EZRightViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12A542CB1E558625001F93A0 /* EZRightViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		12268E7D1E5483FB0011B37E /* EasyDrawer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EasyDrawer.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		12268E801E5483FB0011B37E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		12268E821E5483FB0011B37E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		12268E801E5483FB0011B37E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = ../AppDelegate.swift; sourceTree = "<group>"; };
+		12268E821E5483FB0011B37E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = ../ViewController.swift; sourceTree = "<group>"; };
 		12268E851E5483FB0011B37E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		12268E871E5483FB0011B37E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		12268E8A1E5483FB0011B37E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		12268E8C1E5483FB0011B37E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		12268E931E5484440011B37E /* Demo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Demo.swift; sourceTree = "<group>"; };
+		12A542C51E558625001F93A0 /* Commom.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Commom.swift; sourceTree = "<group>"; };
+		12A542C61E558625001F93A0 /* EZDrawerManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EZDrawerManager.swift; sourceTree = "<group>"; };
+		12A542C71E558625001F93A0 /* EZRootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EZRootViewController.swift; sourceTree = "<group>"; };
+		12A542C91E558625001F93A0 /* EZLeftViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EZLeftViewController.swift; sourceTree = "<group>"; };
+		12A542CA1E558625001F93A0 /* EZMainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EZMainViewController.swift; sourceTree = "<group>"; };
+		12A542CB1E558625001F93A0 /* EZRightViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EZRightViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,9 +66,8 @@
 		12268E7F1E5483FB0011B37E /* EasyDrawer */ = {
 			isa = PBXGroup;
 			children = (
-				12268E921E54841B0011B37E /* Classes */,
-				12268E801E5483FB0011B37E /* AppDelegate.swift */,
-				12268E821E5483FB0011B37E /* ViewController.swift */,
+				12A542C41E558625001F93A0 /* Classes */,
+				12A542C81E558625001F93A0 /* Demo */,
 				12268E841E5483FB0011B37E /* Main.storyboard */,
 				12268E871E5483FB0011B37E /* Assets.xcassets */,
 				12268E891E5483FB0011B37E /* LaunchScreen.storyboard */,
@@ -67,12 +76,26 @@
 			path = EasyDrawer;
 			sourceTree = "<group>";
 		};
-		12268E921E54841B0011B37E /* Classes */ = {
+		12A542C41E558625001F93A0 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				12268E931E5484440011B37E /* Demo.swift */,
+				12A542C51E558625001F93A0 /* Commom.swift */,
+				12A542C61E558625001F93A0 /* EZDrawerManager.swift */,
+				12A542C71E558625001F93A0 /* EZRootViewController.swift */,
 			);
 			path = Classes;
+			sourceTree = "<group>";
+		};
+		12A542C81E558625001F93A0 /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				12268E801E5483FB0011B37E /* AppDelegate.swift */,
+				12268E821E5483FB0011B37E /* ViewController.swift */,
+				12A542C91E558625001F93A0 /* EZLeftViewController.swift */,
+				12A542CA1E558625001F93A0 /* EZMainViewController.swift */,
+				12A542CB1E558625001F93A0 /* EZRightViewController.swift */,
+			);
+			path = Demo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -148,9 +171,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				12A542CF1E558625001F93A0 /* EZLeftViewController.swift in Sources */,
 				12268E831E5483FB0011B37E /* ViewController.swift in Sources */,
+				12A542D11E558625001F93A0 /* EZRightViewController.swift in Sources */,
+				12A542CC1E558625001F93A0 /* Commom.swift in Sources */,
 				12268E811E5483FB0011B37E /* AppDelegate.swift in Sources */,
-				12268E941E5484440011B37E /* Demo.swift in Sources */,
+				12A542CE1E558625001F93A0 /* EZRootViewController.swift in Sources */,
+				12A542D01E558625001F93A0 /* EZMainViewController.swift in Sources */,
+				12A542CD1E558625001F93A0 /* EZDrawerManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -312,6 +340,7 @@
 				12268E911E5483FB0011B37E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
